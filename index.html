@@ -17,15 +17,15 @@
         />
         <nav>
           <ul>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">My Work</a></li>
-            <li><a href="#">Contact Me</a></li>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#mywork">My Work</a></li>
+            <li><a href="#contact">Contact Me</a></li>
           </ul>
         </nav>
       </header>
 
       <aside>
-        <div class="aside1">
+        <div class="aside1" id="aboutme">
           <h2>About Me</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum,
@@ -34,7 +34,7 @@
             magnam eveniet beatae ullam!
           </p>
         </div>
-        <div class="aside2">
+        <div class="aside2" id="mywork">
           <h2>My Work</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
@@ -47,36 +47,57 @@
     </div>
     <main class="projects">
       <div class="project1">
-        <img src="https://placehold.co/300x200?text=project1\nLorem ipsum" />
+        <img
+          src="https://placehold.co/600x400?text=project1\nLorem ipsum"
+          alt="placeholder image"
+        />
+        <a href="https://github.com/Jacqueline-Stiehl/semantic-html"
+          >Project 1: Semantic HTML</a
+        >
       </div>
       <div class="project2">
-        <img src="https://placehold.co/300x200?text=project2\nLorem ipsum" />
+        <img
+          src="https://placehold.co/300x200?text=project2\nLorem ipsum"
+          alt="placeholder image"
+        />
+        <a
+          href="file:///C:/Users/salsa/Documents/bootcamp/homework/semantic-html/index.html"
+          >Project2: Semantic HTML</a
+        >
       </div>
       <div class="project3">
-        <img src="https://placehold.co/300x200?text=project3\nLorem ipsum" />
+        <img
+          src="https://placehold.co/300x200?text=project3\nLorem ipsum"
+          alt="placeholder image"
+        />
       </div>
     </main>
     <aside>
-      <div class="aside3">
+      <div class="aside3" id="contact">
         <h2>Contact Me</h2>
-        <p class="block">Phone</p>
-        <p class="block">Email</p>
-        <p class="block">GitHub</p>
+        <p class="block">Phone: 555-555-5555</p>
+        <p class="block">Email: me@gmail.com</p>
+        <p class="block">
+          <a href="https://github.com/Jacqueline-Stiehl">GitHub</a>
+        </p>
       </div>
     </aside>
+    <footer>
+      <p>2023 Jacqueline Stiehl</p>
+    </footer>
   </body>
 </html>
 
 <!-- GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
+Done--WHEN I load their portfolio
+Done--THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+Done--WHEN I click one of the links in the navigation
+Done--THEN the UI scrolls to the corresponding section
 WHEN I click on the link to the section about their work
 THEN the UI scrolls to a section with titled images of the developer's applications
 WHEN I am presented with the developer's first application
 THEN that application's image should be larger in size than the others
 WHEN I click on the images of the applications
 THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport -->
+Done--WHEN I resize the page or view the site on various screens and devices
+Done--THEN I am presented with a responsive layout that adapts to my viewport -->

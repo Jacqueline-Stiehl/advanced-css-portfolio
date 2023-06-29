@@ -12,6 +12,10 @@ nav {
   color: white;
   font-size: 30px;
 }
+a:link {
+  color: white;
+  display: inline-block;
+}
 header {
   padding: 60px;
   text-align: left;
@@ -69,7 +73,32 @@ h2 {
   padding-left: 20px;
   padding-right: 20px;
 }
-section {
-}
 footer {
+  padding: 20px;
+  text-align: center;
+  background: #1766b1;
+  color: white;
+}
+
+@media screen and (max-width: 992px) header {
+}
+nav {
+}
+aside {
+}
+
+@media screen and (max-width: 768px) header {
+}
+nav {
+}
+aside {
+  order: 2;
+}
+
+@media screen and (max-width: 576px) header {
+}
+nav {
+}
+aside {
+  order: 2;
 }
