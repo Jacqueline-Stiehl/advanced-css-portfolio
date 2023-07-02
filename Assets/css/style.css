@@ -29,8 +29,7 @@ h1 {
   padding-bottom: 10px;
 }
 img {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  border: 5px solid black;
 }
 span {
   color: aqua;
@@ -70,20 +69,21 @@ h2 {
 #project1 {
   width: 500px;
   height: 300px;
+  font-size: 20px;
 }
 #project2 {
   width: 250px;
   height: 150px;
+  font-size: 20px;
 }
 #project3 {
   width: 250px;
   height: 150px;
+  font-size: 20px;
 }
 .block {
   display: inline-block;
-  font-size: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
+  font-size: 20px;
 }
 footer {
   padding: 20px;
@@ -114,3 +114,16 @@ nav {
 aside {
   order: 2;
 }
+
+/* div.project1 { */
+/* background-image: url("https://wallpapers.com/images/featured/pattern-4u7ed6koskqhcez1.jpg"); */
+/* background-size: cover; */
+/* background-repeat: no-repeat; */
+/* } */
+
+/* div.project1 a { */
+/* color: white; */
+/* position: relative; */
+/* top: 10px; */
+/* left: 10px; */
+/* } */
