@@ -66,6 +66,7 @@ aside {
 h2 {
   font-size: 50px;
 }
+/* image one is larger than images two and three */
 #project1 {
   width: 500px;
   height: 300px;
@@ -91,7 +92,7 @@ footer {
   background: #1766b1;
   color: white;
 }
-
+/* display adjusts to screen size */
 @media screen and (max-width: 992px) header {
 }
 nav {
